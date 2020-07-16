@@ -3,7 +3,7 @@ defmodule Mix.Tasks.Compile.Gleam do
 
   def run(_args) do
     Mix.shell().cmd("gleam build .")
-    |> IO.inspect(lablel: "Compile.Gleam Result")
+    |> IO.inspect(label: "Compile.Gleam Result")
     
     {:ok, []}
   end
